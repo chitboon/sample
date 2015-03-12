@@ -15,6 +15,9 @@
 		AC5577131AB039720012CD5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5577121AB039720012CD5B /* Images.xcassets */; };
 		AC5577161AB039720012CD5B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC5577141AB039720012CD5B /* LaunchScreen.xib */; };
 		AC5577221AB039720012CD5B /* QuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5577211AB039720012CD5B /* QuestTests.swift */; };
+		AC55772F1AB150E10012CD5B /* AddToDoItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC55772E1AB150E10012CD5B /* AddToDoItemViewController.swift */; };
+		AC5577311AB1519F0012CD5B /* ToDoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5577301AB1519F0012CD5B /* ToDoListTableViewController.swift */; };
+		AC5577331AB160630012CD5B /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5577321AB160630012CD5B /* ToDoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		AC5577201AB039720012CD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC5577211AB039720012CD5B /* QuestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestTests.swift; sourceTree = "<group>"; };
 		AC55772B1AB03AA20012CD5B /* Quest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quest-Bridging-Header.h"; sourceTree = "<group>"; };
+		AC55772E1AB150E10012CD5B /* AddToDoItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddToDoItemViewController.swift; sourceTree = "<group>"; };
+		AC5577301AB1519F0012CD5B /* ToDoListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListTableViewController.swift; sourceTree = "<group>"; };
+		AC5577321AB160630012CD5B /* ToDoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 		AFEDB338A9EEECD38B6B48E8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		B209C9CB9E2367B27895EEC6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E9DC9E3D0AD743F5DC7708C2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +118,9 @@
 				AC55770A1AB039710012CD5B /* Quest.xcdatamodeld */,
 				AC5577061AB039710012CD5B /* Supporting Files */,
 				AC55772B1AB03AA20012CD5B /* Quest-Bridging-Header.h */,
+				AC55772E1AB150E10012CD5B /* AddToDoItemViewController.swift */,
+				AC5577301AB1519F0012CD5B /* ToDoListTableViewController.swift */,
+				AC5577321AB160630012CD5B /* ToDoItem.swift */,
 			);
 			path = Quest;
 			sourceTree = "<group>";
@@ -277,8 +286,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC55770E1AB039720012CD5B /* ViewController.swift in Sources */,
+				AC5577311AB1519F0012CD5B /* ToDoListTableViewController.swift in Sources */,
+				AC5577331AB160630012CD5B /* ToDoItem.swift in Sources */,
 				AC55770C1AB039710012CD5B /* Quest.xcdatamodeld in Sources */,
 				AC5577091AB039710012CD5B /* AppDelegate.swift in Sources */,
+				AC55772F1AB150E10012CD5B /* AddToDoItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
